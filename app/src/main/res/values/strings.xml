@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="title_activity_bmicalculator">BMICalculator</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="question_1">A healty diet includes chocolate and snacks</string>
+    <string name="correct_toast">Correct Answer!</string>
+    <string name="incorrect_toast">Incorrect Answer</string>
+    <string name="question_2">Apple</string>
+    <string name="question_3">A KitKat has more calories than 3 bananas</string>
+    <string name="question_4">The Recommended calorie intake for an adult is 2000 Calories</string>
+    <string name="question_5">An orange has 47 calories</string>
+    <string name="question_6">Physical Excersise is important</string>
+    <string name="question_7">Excersise releases stress</string>
+    <string name="question_8">A BMI of 30 and above indicates obestiy</string>
+    <string name="question_9">"A sedentary is considered healthy "</string>
+    <string name="question_10">A Sedentary lifestyle is considered healthy.</string>
+</resources>

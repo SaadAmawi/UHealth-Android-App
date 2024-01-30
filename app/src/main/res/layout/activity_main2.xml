@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:backgroundTint="@color/black">
+
+  <ProgressBar
+      android:id="@+id/progress_bar"
+      style="@android:style/Widget.ProgressBar.Horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentBottom="true"
+      android:indeterminate="false" />
+
+
+  <TextView
+      android:id="@+id/score"
+      android:layout_width="140dp"
+      android:layout_height="65dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+
+
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginStart="135dp"
+      android:layout_marginLeft="135dp"
+      android:layout_marginTop="611dp"
+      android:layout_marginEnd="135dp"
+      android:layout_marginRight="135dp"
+      android:layout_marginBottom="54dp"
+      android:padding="10dp"
+      android:textSize="25sp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/question_text_view"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="@color/white"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="268dp"
+      android:gravity="center"
+      android:padding="20dp"
+
+      android:textSize="30sp"
+      android:textStyle="bold" />
+
+  <Button
+      android:id="@+id/true_button"
+
+      android:layout_width="150dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginStart="22dp"
+      android:layout_marginEnd="239dp"
+      android:layout_marginBottom="145dp"
+      android:backgroundTint="#11FF00"
+      android:text="TRUE"
+      android:textColor="@color/white"
+      android:textSize="20sp"
+      android:textStyle="bold" />
+
+  <Button
+      android:id="@+id/false_button"
+
+      android:layout_width="150dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginStart="241dp"
+      android:layout_marginEnd="22dp"
+      android:layout_marginBottom="145dp"
+
+      android:backgroundTint="#FF0000"
+      android:text="FALSE"
+      android:textColor="#FFFFFF"
+      android:textSize="20sp"
+      android:textStyle="bold" />
+
+
+  <ImageView
+      android:id="@+id/imageView9"
+      android:layout_width="match_parent"
+      android:layout_height="451dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginStart="-2dp"
+      android:layout_marginTop="-69dp"
+      android:layout_marginBottom="349dp"
+      app:srcCompat="@drawable/timequiz" />
+
+
+</RelativeLayout>
